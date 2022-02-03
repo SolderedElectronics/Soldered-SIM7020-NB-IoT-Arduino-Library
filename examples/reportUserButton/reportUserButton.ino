@@ -1,11 +1,11 @@
 /*
   Supported DEVIO NB-DEVKIT I Board 
     |  Do not use PIN   |
-    |      16 TX        |
-    |      17 RX        |
+    |        9 TX        |
+    |        8 RX        |
     |      4 EINT       |
     |   26 power key    |
-    |     27 reset      |
+    |     5 reset      |
   This is an example for DEVIO NB-DEVKIT I. That has report the user button to Magellan IoT Platform.
   
   Please login and enjoy with https://magellan.ais.co.th
