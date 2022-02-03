@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['defaultaddress_0',['defaultAddress',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a38ee1abeef1f1471b7df9839db0ffba2',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['breboot_5fflag_0',['breboot_flag',['../class_magellan___s_i_m7020_e.html#aea870a5b08bbec23988a071e61553970',1,'Magellan_SIM7020E']]]
 ];

@@ -1,8 +1,26 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aea626d369c76c341ddbb3b3b56ca1466',1,'EASYC_SOLDERED_LIBS::EasyC::EasyC()'],['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['easyc_2ecpp_1',['easyC.cpp',['../easy_c_8cpp.html',1,'']]],
-  ['easyc_2eh_2',['easyC.h',['../easy_c_8h.html',1,'']]],
-  ['easyc_5fsoldered_5flibs_3',['EASYC_SOLDERED_LIBS',['../namespace_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s.html',1,'']]],
-  ['err_4',['err',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a6f87367a851167043e2a67f6c0635683',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['callback_5fp_0',['callback_p',['../class_a_t___s_i_m7020_e.html#a7982032f88049d356cca4c27442aea64',1,'AT_SIM7020E']]],
+  ['changed_1',['CHANGED',['../_magellan___s_i_m7020_e_8h.html#aa6cb92e8f9d4b49823418a843dbe111ea02950f589a2addc8bff690a59d33cee7',1,'Magellan_SIM7020E.h']]],
+  ['char_5fto_5fbyte_2',['char_to_byte',['../class_a_i_s___s_i_m7020_e___a_p_i.html#ab0dc7a6b56d571dbe4cd17cc3f082c22',1,'AIS_SIM7020E_API']]],
+  ['check_5fmodule_5fready_3',['check_module_ready',['../class_a_t___s_i_m7020_e.html#aa88face709e79c1263eb64accaed78dd',1,'AT_SIM7020E']]],
+  ['checkpsmmode_4',['checkPSMmode',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a1f61662c55c30f33d4ad53629f5d6978',1,'AIS_SIM7020E_API::checkPSMmode()'],['../class_a_t___s_i_m7020_e.html#a4f76475f034dffb1fae44e1d5d4c8bdf',1,'AT_SIM7020E::checkPSMmode()']]],
+  ['closeudpsocket_5',['closeUDPSocket',['../class_a_t___s_i_m7020_e.html#a7b5c00af1fa52f1c6eee64e83caced42',1,'AT_SIM7020E']]],
+  ['cnt_5fcmdgetrsp_6',['cnt_cmdgetrsp',['../class_magellan___s_i_m7020_e.html#aa32363f8fa40e3dd1a11290d7fc18767',1,'Magellan_SIM7020E']]],
+  ['con_7',['con',['../_magellan___s_i_m7020_e_8h.html#a9ed204ab62ed5d684db6bd862a439fdc',1,'Magellan_SIM7020E.h']]],
+  ['connectadvancemqtt_8',['connectAdvanceMQTT',['../class_a_i_s___s_i_m7020_e___a_p_i.html#ad8dc1c2c0fb218e915af576ad8262bd2',1,'AIS_SIM7020E_API']]],
+  ['connected_9',['connected',['../class_magellan___s_i_m7020_e.html#a9b430709fca52fa2ac822a8686bfe0a2',1,'Magellan_SIM7020E']]],
+  ['connectmqtt_10',['connectMQTT',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a0c0b7988f5a07a1485b586b33eb426cb',1,'AIS_SIM7020E_API']]],
+  ['connectnetwork_11',['connectNetwork',['../class_a_t___s_i_m7020_e.html#a005c4b1c8b92b580444eec559537d3b6',1,'AT_SIM7020E']]],
+  ['content_12',['CONTENT',['../_magellan___s_i_m7020_e_8h.html#aa6cb92e8f9d4b49823418a843dbe111ea59ae17a687995046ac7025dcc53156e3',1,'Magellan_SIM7020E.h']]],
+  ['continue_13',['CONTINUE',['../_magellan___s_i_m7020_e_8h.html#aa6cb92e8f9d4b49823418a843dbe111ea49959dd441dcda75d6898cf2c68fb374',1,'Magellan_SIM7020E.h']]],
+  ['contk_14',['contk',['../_magellan___s_i_m7020_e_8h.html#ae2ba48550a104dd1c2f0d1601f0e30b0',1,'Magellan_SIM7020E.h']]],
+  ['count_5ferror_5ftoken_5fget_15',['count_error_token_get',['../class_magellan___s_i_m7020_e.html#a3ea05c975ac9b924084c2bc502408a35',1,'Magellan_SIM7020E']]],
+  ['count_5ferror_5ftoken_5fpost_16',['count_error_token_post',['../class_magellan___s_i_m7020_e.html#a553c40874d849ab6a229230e3ea06b2a',1,'Magellan_SIM7020E']]],
+  ['count_5fget_5ftimeout_17',['count_get_timeout',['../class_magellan___s_i_m7020_e.html#a7cdefaf7c7a1731699f22cebc467e39f',1,'Magellan_SIM7020E']]],
+  ['count_5fpost_5ftimeout_18',['count_post_timeout',['../class_magellan___s_i_m7020_e.html#a9513f3d7a98a2add992f77e8c858a624',1,'Magellan_SIM7020E::count_post_timeout()'],['../class_a_i_s___s_i_m7020_e___a_p_i.html#aebc613346bacf4e1191b0540300fdb0e',1,'AIS_SIM7020E_API::count_post_timeout()']]],
+  ['count_5fpub_5ftimeout_19',['count_pub_timeout',['../class_a_i_s___s_i_m7020_e___a_p_i.html#ab768732a5968773a97b91ee44515b968',1,'AIS_SIM7020E_API']]],
+  ['count_5fsub_5ftimeout_20',['count_sub_timeout',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a72b57d518b2200019a8e9b775b495b9d',1,'AIS_SIM7020E_API']]],
+  ['created_21',['CREATED',['../_magellan___s_i_m7020_e_8h.html#aa6cb92e8f9d4b49823418a843dbe111eaa387e4668dfb404ce73595c772d57144',1,'Magellan_SIM7020E.h']]],
+  ['createudpsocket_22',['createUDPSocket',['../class_a_t___s_i_m7020_e.html#aefc48cab28e8b95f9ffa383a410268b4',1,'AT_SIM7020E']]]
 ];

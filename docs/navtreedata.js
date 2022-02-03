@@ -24,15 +24,11 @@
 */
 var NAVTREE =
 [
-  [ "16x2 easyC LCD Library", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
-    ] ],
+  [ "SIM7020 NB-IoT Library", "index.html", [
+    [ "SIM7020 NB-IoT Arduino library", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
@@ -40,14 +36,23 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html"
+"_a_i_s___s_i_m7020_e___a_p_i_8cpp.html",
+"globals_func.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

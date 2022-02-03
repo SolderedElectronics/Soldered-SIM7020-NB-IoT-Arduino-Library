@@ -1,0 +1,26 @@
+var NAVTREEINDEX1 =
+{
+"globals_func.html":[2,1,1],
+"globals_type.html":[2,1,3],
+"globals_vars.html":[2,1,2],
+"index.html":[],
+"index.html":[0],
+"pages.html":[],
+"structdate_time.html":[1,0,2],
+"structdate_time.html#ae7b9455cadb939d0e8797437e4413ef3":[1,0,2,1],
+"structdate_time.html#af42ae24c6cf70ecc0e62b6c09e8bd86a":[1,0,2,0],
+"structoption.html":[1,0,4],
+"structoption.html#a38a142f08cf71cfdecf877a580821b9c":[1,0,4,2],
+"structoption.html#a8afd030ecd560074f8072fae21c82494":[1,0,4,0],
+"structoption.html#a9feb381eae99d40c8ae5380f20ff5745":[1,0,4,1],
+"structping_r_e_s_p.html":[1,0,5],
+"structping_r_e_s_p.html#a0efeb75b6da94cf0310723b3ca0f86c7":[1,0,5,0],
+"structping_r_e_s_p.html#a804278f4a24922dab87de0aec62b50d8":[1,0,5,2],
+"structping_r_e_s_p.html#acefd39e996f6a4e82dfaf9c22f5c1032":[1,0,5,3],
+"structping_r_e_s_p.html#ae63c4de0e746f4f5c7f682440d023fb4":[1,0,5,1],
+"structradio.html":[1,0,6],
+"structradio.html#a011926e118ac004a2a3f90ab3c7a5568":[1,0,6,0],
+"structradio.html#a243cf19203429afd628e0168ee7765dd":[1,0,6,1],
+"structradio.html#a6df8448f89c063b14ad6964443edad37":[1,0,6,2],
+"structradio.html#ace6c0876317ec7e15eeb2a7e10f0d090":[1,0,6,3]
+};

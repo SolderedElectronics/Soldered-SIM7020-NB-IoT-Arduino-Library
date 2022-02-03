@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['initializenative_0',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ac5e452bb3e1a549f4947bac4b5fe430e',1,'EASYC_SOLDERED_LIBS::EasyC::initializeNative()']]]
+  ['begin_0',['begin',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a5eda10f1027bf01b2b7e12d0f5831e51',1,'AIS_SIM7020E_API::begin()'],['../class_magellan___s_i_m7020_e.html#a2e4c7787ed009fe7b50c9e2287f0611b',1,'Magellan_SIM7020E::begin()']]],
+  ['blankchk_1',['blankChk',['../class_a_t___s_i_m7020_e.html#ad3220b0ba1a8944ddd751153283dc75d',1,'AT_SIM7020E']]]
 ];
