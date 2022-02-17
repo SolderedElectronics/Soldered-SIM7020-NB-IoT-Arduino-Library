@@ -51,7 +51,7 @@ Released for private usage
 	#define isATReset 1
 	#define isNetLight 0
 	#define serialConfig 0
-	#define hwResetPin 0
+	#define hwResetPin 5
 	#define configParam SERIAL_8N1
 	#define rxPin 13
 	#define txPin 5
@@ -82,7 +82,7 @@ Released for private usage
 	#define isHwReset 0
 	#define isATReset 1
 	#define isNetLight 0
-	#define hwResetPin 0
+	#define hwResetPin 5
 	#define serialConfig 1
 	#define configParam SERIAL_8N1
 	#define rxPin 0
@@ -98,7 +98,7 @@ Released for private usage
  	#define isHwReset 0
 	#define isATReset 1
 	#define isNetLight 0
-	#define hwResetPin 0
+	#define hwResetPin 5
 	#define serialConfig 1
 	#define configParam SERIAL_8N1
 	#define rxPin 0
@@ -130,7 +130,7 @@ Released for private usage
  	#define isHwReset 0
 	#define isATReset 1
 	#define isNetLight 0
-	#define hwResetPin 0
+	#define hwResetPin 5
 	#define serialConfig 0
 	#define configParam SERIAL_8N1
 	#define rxPin 8
@@ -145,7 +145,7 @@ Released for private usage
  	#define isHwReset 0
 	#define isATReset 1
 	#define isNetLight 0
-	#define hwResetPin 0
+	#define hwResetPin 5
 	#define serialConfig 0
 	#define configParam SERIAL_8N1
 	#define rxPin 48
@@ -160,7 +160,7 @@ Released for private usage
  	#define isHwReset 0
 	#define isATReset 1
 	#define isNetLight 0
-	#define hwResetPin 0
+	#define hwResetPin 5
 	#define serialConfig 0
 
 	//Serial configuration

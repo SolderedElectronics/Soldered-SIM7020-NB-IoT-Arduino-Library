@@ -1,11 +1,11 @@
 /*  
   Supported DEVIO NB-DEVKIT I Board
     |  Do not use PIN   |
-    |      0 TX        |
-    |      1 RX        |
+    |      9 TX        |
+    |        8 RX        |
     |      4 EINT       |
     |   26 power key    |
-    |     27 reset      |
+    |     5 reset      |
   Example for get config data from Magellan IoT Platform
   
   Please login and enjoy with https://magellan.ais.co.th
