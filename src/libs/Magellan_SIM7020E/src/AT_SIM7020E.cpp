@@ -999,24 +999,24 @@ dateTime AT_SIM7020E::getClock(unsigned int timezone)
                 {
                     if (dd > 29)
                     {
-                        dd == 1;
+                        dd = 1;
                         mm += 1;
                     }
                 }
                 else if (dd > 28)
                 {
-                    dd == 1;
+                    dd = 1;
                     mm += 1;
                 }
             }
             else if ((mm == 1 || mm == 3 || mm == 5 || mm == 7 || mm == 8 || mm == 10 || mm == 12) && dd > 31)
             {
-                dd == 1;
+                dd = 1;
                 mm += 1;
             }
             else if (dd > 30)
             {
-                dd == 1;
+                dd = 1;
                 mm += 1;
             }
         }
@@ -1327,8 +1327,7 @@ unsigned int AT_SIM7020E::MQTTresponse()
                 {
                     retRetained = str;
                 }
-                if (i == 6 && data_input.indexOf(F("+CMQPUB:")) != -1 ||
-                    i == 8 && data_input.indexOf(F("+CMQPUBEXT:")) != -1)
+                if ((((i == 6 && data_input.indexOf(F("+CMQPUB:"))) != -1 ||) i == 8 &&) data_input.indexOf(F("+CMQPUBEXT:")) != -1)
                 {
                     retPayload = str;
                     if (msgLen > 500)
