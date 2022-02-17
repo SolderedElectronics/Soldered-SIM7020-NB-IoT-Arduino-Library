@@ -1,23 +1,31 @@
-/*  
-  Supported DEVIO NB-DEVKIT I Board
-    |  Do not use PIN   |
-    |        9 TX        |
-    |        8 RX        |
-    |      4 EINT       |
-    |   26 power key    |
-    |     5 reset      |
-  Example for report random data to Magellan IoT Platform
-  please use payload with json format e.g. {"Temperature":25.5,"Humidity":90.4,"Light":45}
-  and {"Location":"13.001,100.44"} for plot the location on MAP
-                    |        |
-                latitude  longitude 
+/**
+ **************************************************
+ *
+ * @file        reportData.ino
+ * @brief       Example for report random data to Magellan IoT Platform
+ *				please use payload with json format e.g. {"Temperature":25.5,"Humidity":90.4,"Light":45}
+ *				and {"Location":"13.001,100.44"} for plot the location on MAP
+ *									|        |
+ *								latitude  longitude 
+ *
+ *				and {"Lamp":0} or {"Lamp":1"} for show the Lamp status on dashboard
+ *
+ *
+ *				product: www.solde.red/333072
+ *
+ * 				Modified by soldered.com
+ *
+ * @author		Device Innovation team     
+ ***************************************************/
 
-  and {"Lamp":0} or {"Lamp":1"} for show the Lamp status on dashboard
-  
-  Please login and enjoy with https://magellan.ais.co.th
-  
-  If you have any questions, please see more details at https://www.facebook.com/AISDEVIO
-*/
+///  This is pinout for arduino UNO, for other board configuration check boards.h file
+///    |  Do not use PIN  |
+///    |  9 TX            |
+///    |  8 RX            |
+///    |  4 EINT          |
+///    |  26 power key    |
+///    |  5 reset         |
+
 #include "SIM7020-NB-IoT-SOLDERED.h"
 Magellan_SIM7020E magel;          
 
