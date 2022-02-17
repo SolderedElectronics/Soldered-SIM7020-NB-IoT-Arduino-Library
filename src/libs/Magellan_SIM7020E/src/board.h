@@ -164,7 +164,7 @@ Released for private usage
 	#define serialConfig 0
 
 	//Serial configuration
-    HardwareSerial serialPort(1);
+    AltSoftSerial serialPort;
     #define buadrate 9600
     #define description "USE AltSoftSerial Serial"
 #endif
