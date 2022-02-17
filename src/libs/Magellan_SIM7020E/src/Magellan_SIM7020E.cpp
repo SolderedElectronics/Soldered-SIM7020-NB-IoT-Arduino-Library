@@ -1089,7 +1089,7 @@ void Magellan_SIM7020E::rspPrintOut(String rx)
         if(printstate && en_print) Serial.print(str);
 
         if(GETCONTENT or RCVRSP){
-            if (post_process && post_token==rsptoken || get_process && get_token==rsptoken){
+            if ((post_process && post_token==rsptoken) || (get_process && get_token==rsptoken)){
               data_buffer+=str;
             }
           
@@ -1114,7 +1114,7 @@ void Magellan_SIM7020E::rspPrintOut(String rx)
         if(printstate && en_print) Serial.print(str);
 
         if(GETCONTENT or RCVRSP){
-          if (post_process && post_token==rsptoken || get_process && get_token==rsptoken){
+          if ((post_process && post_token==rsptoken) || (get_process && get_token==rsptoken)){
             data_buffer+=str;
           }
         }
