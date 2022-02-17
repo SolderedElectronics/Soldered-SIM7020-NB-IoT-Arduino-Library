@@ -301,10 +301,11 @@ bool AT_SIM7020E::closeUDPSocket(){
     if(_Serial->available()){
       data_input=_Serial->readStringUntil('\n');
       if(data_input.indexOf(F("OK"))!=-1){
-        break;
+        return 1;
       }
     }
   }
+  return 0;
 }
 
 // Set command echo mode off
