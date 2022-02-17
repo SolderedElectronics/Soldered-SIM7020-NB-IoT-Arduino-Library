@@ -1,14 +1,25 @@
-/*
- Supported DEVIO NB-DEVKIT I Board 
-    |  Do not use PIN   |
-    |        9 TX        |
-    |        8 RX        |
-    |      4 EINT       |
-    |   26 power key    |
-    |     5 reset      |
- 
-    If you have any questions, please see more details at https://www.facebook.com/AISDEVIO
-*/
+/**
+ **************************************************
+ *
+ * @file        AdvancePUBUSB.ino
+ * @brief       This is an example for DEVIO NB-DEVKIT I.
+ *
+ *
+ *				product: www.solde.red/333072
+ *
+ * 				Modified by soldered.com
+ *
+ * @author		Device Innovation team     
+ ***************************************************/
+
+///  This is pinout for arduino UNO, for other board configuration check boards.h file
+///    |  Do not use PIN  |
+///    |  9 TX            |
+///    |  8 RX            |
+///    |  4 EINT          |
+///    |  26 power key    |
+///    |  5 reset         |
+
 #include "SIM7020-NB-IoT-API-SOLDERED.h"
 String address    = "";               //Your IPaddress or mqtt server url
 String serverPort = "";               //Your server port

@@ -139,7 +139,7 @@ Released for private usage
 	//Serial configuration
     AltSoftSerial serialPort;
     #define buadrate 9600
-    #define description "PLEASE USE PIN RX=48 & TX=46"
+    #define description "PLEASE USE PIN RX=8 & TX=9"
 
 #elif defined(ARDUINO_AVR_MEGA2560)
  	#define isHwReset 0

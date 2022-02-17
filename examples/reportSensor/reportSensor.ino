@@ -1,20 +1,28 @@
-/*
-  Supported DEVIO NB-DEVKIT I Board 
-    |  Do not use PIN   |
-    |        9 TX        |
-    |        8 RX        |
-    |      4 EINT       |
-    |   26 power key    |
-    |     5 reset      |
-  Pre required install library
-         - ClosedCube_HDC1080
-         
-  This is an example for DEVIO NB-DEVKIT I. That has read sensor on board and report data to Magellan IoT Platform.
-  
-  Please login and enjoy with https://magellan.ais.co.th
-  
-  If you have any questions, please see more details at https://www.facebook.com/AISDEVIO
-*/
+/**
+ **************************************************
+ *
+ * @file        reportSensor.ino
+ * @brief       Pre required install library
+ *              - ClosedCube_HDC1080
+ *        
+ *              This is an example for DEVIO NB-DEVKIT I. That has read sensor on board and report data to Magellan IoT Platform.
+ *
+ *
+ *				product: www.solde.red/333072
+ *
+ * 				Modified by soldered.com
+ *
+ * @author		Device Innovation team     
+ ***************************************************/
+
+///  This is pinout for arduino UNO, for other board configuration check boards.h file
+///    |  Do not use PIN  |
+///    |  9 TX            |
+///    |  8 RX            |
+///    |  4 EINT          |
+///    |  26 power key    |
+///    |  5 reset         |
+
 #include "ClosedCube_HDC1080.h"
 #include "SIM7020-NB-IoT-SOLDERED.h"
 Magellan_SIM7020E magel;          
