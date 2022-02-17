@@ -201,10 +201,10 @@ bool AIS_SIM7020E_API::setupMQTT(String server,String port,String clientID,Strin
   else if(username=="" && password!=""){
     Serial.println(F("Username is missing."));
   }
-  else if(clientID.length() > 120 || clientID==""&&cleansession!=1){
+  else if(clientID.length() > 120 || (clientID == "" && cleansession != 1)){
     Serial.println(F("ClientID is over 120 or ClientID is missing."));
   }
-  else if(server==""||port==""){
+  else if(server == "" || port == ""){
     Serial.println(F("Address or port is missing."));
   }
   else if(version > 4 || version < 3){
@@ -379,4 +379,5 @@ char AIS_SIM7020E_API:: char_to_byte(char c){
   if((c>='A')&&(c<='F')){
     return(c-55);
   }
+  return 0;
 }
