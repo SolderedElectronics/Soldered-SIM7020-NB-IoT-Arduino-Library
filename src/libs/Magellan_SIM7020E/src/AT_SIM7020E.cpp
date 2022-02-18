@@ -1327,7 +1327,7 @@ unsigned int AT_SIM7020E::MQTTresponse()
                 {
                     retRetained = str;
                 }
-                if ((i == 6 && data_input.indexOf(F("+CMQPUB:")) != -1 || i == 8 ) && (data_input.indexOf(F("+CMQPUBEXT:")) != -1))
+                if ((((i == 6 && data_input.indexOf(F("+CMQPUB:"))) != -1) || i == 8 ) && (data_input.indexOf(F("+CMQPUBEXT:")) != -1))
                 {
                     retPayload = str;
                     if (msgLen > 500)
