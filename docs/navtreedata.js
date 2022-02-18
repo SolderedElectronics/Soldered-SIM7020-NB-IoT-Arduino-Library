@@ -29,8 +29,9 @@ var NAVTREE =
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
@@ -52,7 +53,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_i_s___s_i_m7020_e___a_p_i_8cpp.html",
-"globals_func.html"
+"class_magellan___s_i_m7020_e.html#a725f8fb92cfce39e33c1d980ff9f6439"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
