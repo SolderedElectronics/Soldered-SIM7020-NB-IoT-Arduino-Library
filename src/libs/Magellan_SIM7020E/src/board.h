@@ -57,7 +57,7 @@ Released for private usage
 	#define txPin 5
 
 	//Serial configuration
-    HardwareSerial serialPort(1);
+    AltSoftSerial serialPort;
     #define buadrate 9600
     #define description "PLEASE USE Hardware Serial"
 
@@ -109,7 +109,24 @@ Released for private usage
     #define buadrate 9600
     #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
 
-#elif defined(ARDUINO_ESP32_DEV) ||(ARDUINO_ARCH_ESP32)
+#elif defined(ARDUINO_ESP32_DEV) || (ARDUINO_ARCH_ESP32)
+ 	#define isHwReset 1
+ 	#define hwResetPin 26
+	#define isATReset 1
+	#define isNetLight 0
+
+	#define serialConfig 0
+	#define rxPin 16
+	#define txPin 17
+	#define configParam SERIAL_8N1
+
+	//Serial configuration
+	//HardwareSerial serialPort(2);
+    HardwareSerial serialPort(1);
+    #define buadrate 115200
+    #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
+
+#elif defined(ARDUINO_ESP8266_GENERIC)
  	#define isHwReset 1
  	#define hwResetPin 26
 	#define isATReset 1
@@ -139,7 +156,7 @@ Released for private usage
 	//Serial configuration
     AltSoftSerial serialPort;
     #define buadrate 9600
-    #define description "PLEASE USE PIN RX=8 & TX=9"
+    #define description "PLEASE USE PIN RX=0 & TX=1"
 
 #elif defined(ARDUINO_AVR_MEGA2560)
  	#define isHwReset 0
