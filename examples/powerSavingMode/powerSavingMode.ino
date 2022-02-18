@@ -3,7 +3,7 @@
  *
  * @file        powerSavingMode.ino
  * @brief       Pre required install library
- *       		- ClosedCube_HDC1080
+ * 
  *
  *
  *				product: www.solde.red/333072
@@ -51,7 +51,7 @@ void loop()
   */
   for(int i = 1 ; i <= 5 ; i++){
 	int read = analogRead(A0);
-    payload="{\"Analog read\": "+read "}";  // Please provide payload with json format
+    payload="{\"Analog read\": "+read + "}";  // Please provide payload with json format
     magel.report(payload);                                                                      // Report sensor data
     delay(5000);                                                                                // Delay 5 second
   }
