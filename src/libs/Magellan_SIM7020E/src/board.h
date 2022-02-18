@@ -35,14 +35,6 @@ Released for private usage
 */
 
 // Define the board used AltSoftSerial.h 
-#if defined(ARDUINO_AVR_UNO) || (ARDUINO_AVR_MEGA2560)
-    #define ATLSOFTSERIAL 1
-#else 
-    #define ATLSOFTSERIAL 0
-#endif 
-#if ATLSOFTSERIAL 
-	#include "AltSoftSerial.h"
-#endif
 
 
 //Hardware specification and configuration
@@ -58,6 +50,7 @@ Released for private usage
 
 	//Serial configuration
     AltSoftSerial serialPort;
+	#define Alt
     #define buadrate 9600
     #define description "PLEASE USE Hardware Serial"
 
@@ -155,6 +148,7 @@ Released for private usage
 
 	//Serial configuration
     AltSoftSerial serialPort;
+	#define Alt
     #define buadrate 9600
     #define description "PLEASE USE PIN RX=0 & TX=1"
 
@@ -170,6 +164,7 @@ Released for private usage
 
 	//Serial configuration
     AltSoftSerial serialPort;
+	#define Alt
     #define buadrate 9600
     #define description "PLEASE USE PIN RX=48 & TX=46"
 
@@ -182,6 +177,13 @@ Released for private usage
 
 	//Serial configuration
     AltSoftSerial serialPort;
+	#define Alt
     #define buadrate 9600
     #define description "USE AltSoftSerial Serial"
+
+
+#endif
+
+#if Alt
+	#include "AltSoftSerial.h"
 #endif

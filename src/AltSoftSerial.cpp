@@ -29,7 +29,7 @@
 // Version 1.1: Improve performance in receiver code
 //
 // Version 1.0: Initial Release
-
+#ifdef Alt
 
 #include "AltSoftSerial.h"
 #include "config/AltSoftSerial_Boards.h"
@@ -348,3 +348,4 @@ void ftm0_isr(void)
 }
 #endif
 
+#endif
