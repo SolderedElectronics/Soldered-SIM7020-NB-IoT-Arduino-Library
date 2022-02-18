@@ -184,6 +184,6 @@ Released for private usage
 
 #endif
 
-#if Alt
+#ifdef Alt
 	#include "AltSoftSerial.h"
 #endif

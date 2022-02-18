@@ -46,7 +46,7 @@ void loop()
   
   String Light=String(analogRead(lightSensorPin));
   
-  payload="{\"light\":"+Light+"}";  //Please provide payload with json format
+  payload="{\"light\":" + Light + "}";  //Please provide payload with json format
   magel.report(payload);                                                                      //Report sensor data
   delay(5000);                                                                                //Delay 5 second
 }

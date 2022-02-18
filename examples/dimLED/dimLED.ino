@@ -23,10 +23,6 @@
 #include "SIM7020-NB-IoT-SOLDERED.h"
 Magellan_SIM7020E magel;          
 
-#ifdef ARDUINO_ESP32_DEV
-#include <analogWrite.h>
-#endif
-
 String dimmer_state="0";
 String dimmer="0";
 String payload;
