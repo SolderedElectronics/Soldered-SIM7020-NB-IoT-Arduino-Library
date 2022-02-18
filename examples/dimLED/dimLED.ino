@@ -43,6 +43,10 @@ void setup()
 
   pinMode(ledPin, OUTPUT);
   #ifdef ARDUINO_ESP32_DEV
+  const int freq = 5000;
+  const int ledChannel = 0;
+  const int resolution = 8;
+  ledcSetup(ledChannel, freq, resolution);
   ledcWrite(0, 1023);
   #else
   analogWrite(ledPin,255);
