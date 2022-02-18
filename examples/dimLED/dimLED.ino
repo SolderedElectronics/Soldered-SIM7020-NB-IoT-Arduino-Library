@@ -28,6 +28,10 @@ String dimmer="0";
 String payload;
 const int ledPin = 9;
 
+#ifdef ARDUINO_ESP32_DEV
+ledcAttachPin(ledPin, 0)
+#endif
+
 void setup() 
 {
   Serial.begin(115200);
@@ -38,7 +42,11 @@ void setup()
   magel.report(payload);    //Initial dimmer data to Magellan 
 
   pinMode(ledPin, OUTPUT);
+  #ifdef ARDUINO_ESP32_DEV
+  ledcWrite(0, 1023);
+  #else
   analogWrite(ledPin,255);
+  #endif
 }
 
 void loop() 
@@ -55,5 +63,9 @@ void loop()
 
   Serial.print("dimmer ");
   Serial.println(dimmer);
-  analogWrite(ledPin, dimmer.toInt());   //Control the LED on board
+  #ifdef ARDUINO_ESP32_DEV
+  ledcWrite(0, dimmer.toInt() * 4);
+  #else
+  analogWrite(ledPin,255);
+  #endif
 }

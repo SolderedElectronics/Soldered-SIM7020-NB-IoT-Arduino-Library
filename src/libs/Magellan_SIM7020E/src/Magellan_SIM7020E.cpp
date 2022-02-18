@@ -808,7 +808,7 @@ String Magellan_SIM7020E::postData(String payload,option *coapOption,unsigned in
 
 String Magellan_SIM7020E::getData(option *coapoption,unsigned int totaloption,String Proxy)
 {
-  int timeout[5]={4000,8000,16000,32000,64000};
+  uint16_t timeout[5]={4000,8000,16000,32000,64000};
   rcvdata="";
   data_buffer="";
   String server=serverIP;
