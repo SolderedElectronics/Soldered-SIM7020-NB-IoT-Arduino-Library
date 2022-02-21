@@ -49,9 +49,9 @@ Released for private usage
 	#define txPin 5
 
 	//Serial configuration
+	#define Alt
 	#include "AltSoftSerial.h"
     AltSoftSerial serialPort;
-	#define Alt
     #define buadrate 9600
     #define description "PLEASE USE Hardware Serial"
 
@@ -148,9 +148,9 @@ Released for private usage
 	#define txPin 9
 
 	//Serial configuration
+	#define Alt
 	#include "AltSoftSerial.h"
     AltSoftSerial serialPort;
-	#define Alt
     #define buadrate 9600
     #define description "PLEASE USE PIN RX=0 & TX=1"
 
@@ -165,9 +165,9 @@ Released for private usage
 	#define txPin 46
 
 	//Serial configuration
+	#define Alt
 	#include "AltSoftSerial.h"
     AltSoftSerial serialPort;
-	#define Alt
     #define buadrate 9600
     #define description "PLEASE USE PIN RX=48 & TX=46"
 
@@ -179,9 +179,9 @@ Released for private usage
 	#define serialConfig 0
 
 	//Serial configuration
+	#define Alt
 	#include "AltSoftSerial.h"
     AltSoftSerial serialPort;
-	#define Alt
     #define buadrate 9600
     #define description "USE AltSoftSerial Serial"
 
