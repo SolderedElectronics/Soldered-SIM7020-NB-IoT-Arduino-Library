@@ -29,7 +29,6 @@
 // Version 1.1: Improve performance in receiver code
 //
 // Version 1.0: Initial Release
-#ifdef Alt
 
 #include "AltSoftSerial.h"
 #include "config/AltSoftSerial_Boards.h"
@@ -398,6 +397,4 @@ void ftm0_isr(void)
     if (flags & (1 << 6) && (FTM0_C6SC & 0x40))
         altss_compare_a_interrupt();
 }
-#endif
-
 #endif
