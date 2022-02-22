@@ -12,7 +12,7 @@
  * @author		Device Innovation team     
  ***************************************************/
 
-//Connecting diagram
+//Connection diagram for Dasduino Core(or any other ATMega328P board), for other boards check boards.h file in this library
 //Breakout      Arduino
 //|-------------|
 //VCC-----------5V
@@ -41,17 +41,20 @@ void setup()
 
   payload="{\"dimmer\":0}"; //Please provide payload with json format
   magel.report(payload);    //Initial dimmer data to Magellan 
-
   pinMode(ledPin, OUTPUT);
-  #ifdef ARDUINO_ESP32_DEV
-  const int freq = 5000;
+  
+  #ifdef ARDUINO_ESP32_DEV  //If ESP32 is used, analogWrite will not work,
+                            //so it is needed to define use of ESP32 or other
+                            //libraries
+  const int freq = 5000;    
   const int ledChannel = 0;
-  const int resolution = 8;
+  const int resolution = 8;//Those are parameters for ESP32 PWM
   ledcSetup(ledChannel, freq, resolution);
   ledcAttachPin(ledPin, 0);
   ledcWrite(0, 1023);
   #else
-  analogWrite(ledPin,255);
+  analogWrite(ledPin,255);  //If any other than ESP32 MCU is used, analogWrite
+                            //will work
   #endif
 }
 
@@ -69,9 +72,9 @@ void loop()
 
   Serial.print("dimmer ");
   Serial.println(dimmer);
-  #ifdef ARDUINO_ESP32_DEV
-  ledcWrite(0, dimmer.toInt() * 4);
+  #ifdef ARDUINO_ESP32_DEV            //Again, ESP32 does not support analogWrite
+  ledcWrite(0, dimmer.toInt() * 4);   //Convert dimmer into int datatype
   #else
-  analogWrite(ledPin,dimmer.toInt());
+  analogWrite(ledPin,dimmer.toInt()); //Convert dimmer into int datatype
   #endif
 }

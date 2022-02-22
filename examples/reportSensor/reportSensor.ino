@@ -15,7 +15,7 @@
  * @author		Device Innovation team     
  ***************************************************/
 
-//Connecting diagram
+//Connection diagram for Dasduino Core(or any other ATMega328P board), for other boards check boards.h file in this library
 //Breakout      Arduino
 //|-------------|
 //VCC-----------5V

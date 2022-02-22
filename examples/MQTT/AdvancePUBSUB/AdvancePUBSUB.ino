@@ -12,7 +12,7 @@
  * @author		Device Innovation team     
  ***************************************************/
 
-//Connecting diagram
+//Connection diagram for Dasduino Core(or any other ATMega328P board), for other boards check boards.h file in this library
 //Breakout      Arduino
 //|-------------|
 //VCC-----------5V
@@ -57,13 +57,13 @@ int cnt = 0;
 
 void setup() {
   Serial.begin(115200);
-  nb.begin();
-  setupMQTT();
-  nb.setCallback(callback); 
-  previousMillis = millis();                
+  nb.begin();                   //Initialize SIM7020
+  setupMQTT();                  //Initialize MQTT server
+  nb.setCallback(callback);     //Set callback
+  previousMillis = millis();    //Take timestamp
 }
 void loop() {   
-  nb.MQTTresponse();
+  nb.MQTTresponse();            //Check if SIM7020 have response
   unsigned long currentMillis = millis();
   if (currentMillis - previousMillis >= interval) {
         cnt++;
