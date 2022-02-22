@@ -12,13 +12,16 @@
  * @author		Device Innovation team     
  ***************************************************/
 
-///  This is pinout for arduino UNO, for other board configuration check boards.h file
-///    |  Do not use PIN  |
-///    |  9 TX            |
-///    |  8 RX            |
-///    |  4 EINT          |
-///    |  26 power key    |
-///    |  5 reset         |
+//Connecting diagram
+//Breakout      Arduino
+//|-------------|
+//VCC-----------5V
+//RXD-----------4
+//TXD-----------2
+//PWRKEY--------5
+//ADC-----------NOT CONNECTED
+//UARTRI--------NOT CONNECTED
+//GND-----------GND
 
 #include "SIM7020-NB-IoT-API-SOLDERED.h"
 String address    = "";               //Your IPaddress or mqtt server url
