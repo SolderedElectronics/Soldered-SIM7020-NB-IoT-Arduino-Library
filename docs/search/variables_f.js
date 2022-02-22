@@ -11,13 +11,5 @@ var searchData=
   ['rsrp_8',['rsrp',['../structradio.html#a243cf19203429afd628e0168ee7765dd',1,'radio']]],
   ['rsrq_9',['rsrq',['../structradio.html#a6df8448f89c063b14ad6964443edad37',1,'radio']]],
   ['rst_10',['rst',['../_magellan___s_i_m7020_e_8h.html#a96617fbe8b23789ed8fa958cfafa8ba2',1,'Magellan_SIM7020E.h']]],
-  ['rtt_11',['rtt',['../structping_r_e_s_p.html#ae63c4de0e746f4f5c7f682440d023fb4',1,'pingRESP']]],
-  ['rx_5fbit_12',['rx_bit',['../_alt_soft_serial_8cpp.html#a867d68c5f2be809301ecd4da278d85b8',1,'AltSoftSerial.cpp']]],
-  ['rx_5fbuffer_13',['rx_buffer',['../_alt_soft_serial_8cpp.html#a24b9edbdfa3ad62d3cd7bd483c4106f8',1,'AltSoftSerial.cpp']]],
-  ['rx_5fbuffer_5fhead_14',['rx_buffer_head',['../_alt_soft_serial_8cpp.html#acd6d0d02317269dbd696debfa746dcfc',1,'AltSoftSerial.cpp']]],
-  ['rx_5fbuffer_5ftail_15',['rx_buffer_tail',['../_alt_soft_serial_8cpp.html#a9c0ea0574c3dc9a70c0be1ee2f761c98',1,'AltSoftSerial.cpp']]],
-  ['rx_5fbyte_16',['rx_byte',['../_alt_soft_serial_8cpp.html#abecb9f7f424287335a67817a45e061a0',1,'AltSoftSerial.cpp']]],
-  ['rx_5fstate_17',['rx_state',['../_alt_soft_serial_8cpp.html#a114174d6b50f71ec03e33d3c8ac8d24c',1,'AltSoftSerial.cpp']]],
-  ['rx_5fstop_5fticks_18',['rx_stop_ticks',['../_alt_soft_serial_8cpp.html#a6f6cc04a879b286ba01bce29f22e0595',1,'AltSoftSerial.cpp']]],
-  ['rx_5ftarget_19',['rx_target',['../_alt_soft_serial_8cpp.html#ac4d321cc865711d404f06810a42dfa4b',1,'AltSoftSerial.cpp']]]
+  ['rtt_11',['rtt',['../structping_r_e_s_p.html#ae63c4de0e746f4f5c7f682440d023fb4',1,'pingRESP']]]
 ];

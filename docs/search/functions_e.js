@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['read_0',['read',['../class_alt_soft_serial.html#a77433300ee449641d29c51cd5d69f6ae',1,'AltSoftSerial']]],
-  ['reboot_5fmodule_1',['reboot_module',['../class_a_t___s_i_m7020_e.html#a1f70eb9e241643feff01cbf09a7346bc',1,'AT_SIM7020E']]],
-  ['report_2',['report',['../class_magellan___s_i_m7020_e.html#a697e42735b81f01ea07a5a833d72647b',1,'Magellan_SIM7020E']]],
-  ['rspprintout_3',['rspPrintOut',['../class_magellan___s_i_m7020_e.html#a92259676c60d85cfb8440b33b7c3364c',1,'Magellan_SIM7020E']]]
+  ['waitresponse_0',['waitResponse',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a8daf0f8098b99d006e6cafa4ea0d0c20',1,'AIS_SIM7020E_API::waitResponse()'],['../class_a_t___s_i_m7020_e.html#ae3c2fbceb81bfc73994cc30a9671b989',1,'AT_SIM7020E::waitResponse()']]],
+  ['willconfig_1',['willConfig',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a0e38472ad08e5827d3ebf78226c629b7',1,'AIS_SIM7020E_API']]]
 ];

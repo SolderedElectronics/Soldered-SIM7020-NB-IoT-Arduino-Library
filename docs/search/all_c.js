@@ -1,20 +1,10 @@
 var searchData=
 [
-  ['magellan_5fsim7020e_0',['Magellan_SIM7020E',['../class_magellan___s_i_m7020_e.html#a291ece539443d5f6564b7bab38600cef',1,'Magellan_SIM7020E::Magellan_SIM7020E()'],['../class_magellan___s_i_m7020_e.html',1,'Magellan_SIM7020E']]],
-  ['magellan_5fsim7020e_2ecpp_1',['Magellan_SIM7020E.cpp',['../_magellan___s_i_m7020_e_8cpp.html',1,'']]],
-  ['magellan_5fsim7020e_2eh_2',['Magellan_SIM7020E.h',['../_magellan___s_i_m7020_e_8h.html',1,'']]],
-  ['manageresponse_3',['manageResponse',['../class_a_t___s_i_m7020_e.html#a55a3ee0138cd0e690d0c3706e9b2e881',1,'AT_SIM7020E::manageResponse()'],['../class_magellan___s_i_m7020_e.html#a014ab5c8ef98c21405553de0df154152',1,'Magellan_SIM7020E::manageResponse()']]],
-  ['maxretrans_4',['maxretrans',['../_magellan___s_i_m7020_e_8h.html#a8f148bf30ede5a7cd3791c380fef4e30',1,'Magellan_SIM7020E.h']]],
-  ['method_5fnot_5fallowed_5',['METHOD_NOT_ALLOWED',['../_magellan___s_i_m7020_e_8h.html#aa6cb92e8f9d4b49823418a843dbe111ea5bc385218b6fd9392f95cfc35e20effe',1,'Magellan_SIM7020E.h']]],
-  ['model_6',['model',['../class_magellan___s_i_m7020_e.html#aa6cd2ca27d32c2305396fa8ec33d9201',1,'Magellan_SIM7020E']]],
-  ['mqcallback_5fp_7',['MQcallback_p',['../class_a_t___s_i_m7020_e.html#a83cd1f67e9ee455193d2fdd751a9eaa6',1,'AT_SIM7020E']]],
-  ['mqttbuffsize_8',['mqttBuffSize',['../class_a_t___s_i_m7020_e.html#a68c0c65bd34a74787729764f90bace51',1,'AT_SIM7020E']]],
-  ['mqttclientcallback_9',['MQTTClientCallback',['../_a_t___s_i_m7020_e_8h.html#a11c1d73e527d408063fece6051013af1',1,'AT_SIM7020E.h']]],
-  ['mqttcmdtimeout_10',['mqttCmdTimeout',['../class_a_t___s_i_m7020_e.html#a7c7c6f91a54009eb3d32512e0ef714ee',1,'AT_SIM7020E']]],
-  ['mqttresponse_11',['MQTTresponse',['../class_a_t___s_i_m7020_e.html#afe433cf384a2490c02a15dc9112c680d',1,'AT_SIM7020E::MQTTresponse()'],['../class_a_i_s___s_i_m7020_e___a_p_i.html#a09f30568a68c8193fa5532636b210330',1,'AIS_SIM7020E_API::MQTTresponse()']]],
-  ['mqttstatus_12',['MQTTstatus',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a9b3688fe40b3a768d33b0adec16005c2',1,'AIS_SIM7020E_API::MQTTstatus()'],['../class_a_t___s_i_m7020_e.html#aa34c565162a28a5d9b8afa0bc938c82e',1,'AT_SIM7020E::MQTTstatus()']]],
-  ['msg_5fid_13',['Msg_ID',['../class_magellan___s_i_m7020_e.html#afeedb668e8ccf6eaee3d6bb5409e9388',1,'Magellan_SIM7020E']]],
-  ['msgget_14',['msgGet',['../class_magellan___s_i_m7020_e.html#a9f7c2846340510434c5188344b1d84a4',1,'Magellan_SIM7020E']]],
-  ['msglenmul_15',['msgLenMul',['../class_a_t___s_i_m7020_e.html#a24089c0e4ae3135d61b119284ae31168',1,'AT_SIM7020E']]],
-  ['msgpost_16',['msgPost',['../class_magellan___s_i_m7020_e.html#a3e14ecef71eb9db77fb914d02e4854bb',1,'Magellan_SIM7020E']]]
+  ['nbstatus_0',['NBstatus',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a331f586ea8125943d38dc34b060c1dc6',1,'AIS_SIM7020E_API::NBstatus()'],['../class_a_t___s_i_m7020_e.html#a341810d468801963928a5f50f429b5d3',1,'AT_SIM7020E::NBstatus()']]],
+  ['newmqtt_1',['newMQTT',['../class_a_i_s___s_i_m7020_e___a_p_i.html#a1bd727ce12679e92b17c62d7868caa7f',1,'AIS_SIM7020E_API::newMQTT()'],['../class_a_t___s_i_m7020_e.html#a2799bf7ab504fef83757fb632ad01f26',1,'AT_SIM7020E::newMQTT()']]],
+  ['non_5fcon_2',['non_con',['../_magellan___s_i_m7020_e_8h.html#a687aa40ba57cdc80f75b52bdda35ce7f',1,'Magellan_SIM7020E.h']]],
+  ['not_5facceptable_3',['NOT_ACCEPTABLE',['../_magellan___s_i_m7020_e_8h.html#aa6cb92e8f9d4b49823418a843dbe111ea31a2af4eb7ffef32c8a2d967b00ff86f',1,'Magellan_SIM7020E.h']]],
+  ['not_5ffound_4',['NOT_FOUND',['../_magellan___s_i_m7020_e_8h.html#aa6cb92e8f9d4b49823418a843dbe111eacdaa2919bac56fe1090eb3dbb9526472',1,'Magellan_SIM7020E.h']]],
+  ['not_5fimplemented_5',['NOT_IMPLEMENTED',['../_magellan___s_i_m7020_e_8h.html#aa6cb92e8f9d4b49823418a843dbe111ea12bcc9d9958a22b983e65f77f3faf90b',1,'Magellan_SIM7020E.h']]],
+  ['notfound_6',['NOTFOUND',['../class_magellan___s_i_m7020_e.html#af9a7a66bb02772c95c441924bf1f1dc2',1,'Magellan_SIM7020E']]]
 ];
