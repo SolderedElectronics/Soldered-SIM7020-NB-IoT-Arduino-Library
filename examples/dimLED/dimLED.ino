@@ -69,6 +69,6 @@ void loop()
   #ifdef ARDUINO_ESP32_DEV
   ledcWrite(0, dimmer.toInt() * 4);
   #else
-  analogWrite(ledPin,dimmer);
+  analogWrite(ledPin,dimmer.toInt());
   #endif
 }
