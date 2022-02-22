@@ -54,7 +54,7 @@ Released for private usage
 	
 	#define isHwReset 0
 	#define isATReset 1
-	#define hwResetPin 26
+	#define hwResetPin 5
 	#define isNetLight 0
 	#define netLightPin 2
 	#define serialConfig 1
@@ -100,7 +100,7 @@ Released for private usage
 
 #elif defined(ARDUINO_ESP32_DEV) || (ARDUINO_ARCH_ESP32)
  	#define isHwReset 1
- 	#define hwResetPin 26
+ 	#define hwResetPin 5
 	#define isATReset 1
 	#define isNetLight 0
 
@@ -110,14 +110,14 @@ Released for private usage
 	#define configParam SERIAL_8N1
 
 	//Serial configuration
-	//HardwareSerial serialPort(2);
-    HardwareSerial serialPort(1);
+	HardwareSerial serialPort(2);
+    //HardwareSerial serialPort(1);
     #define baudrate 115200
     #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
 
 #elif defined(ARDUINO_ESP8266_GENERIC)
  	#define isHwReset 1
- 	#define hwResetPin 26
+ 	#define hwResetPin 5
 	#define isATReset 1
 	#define isNetLight 0
 
@@ -127,8 +127,8 @@ Released for private usage
 	#define configParam SERIAL_8N1
 
 	//Serial configuration
-	//HardwareSerial serialPort(2);
-    HardwareSerial serialPort(1);
+	HardwareSerial serialPort(2);
+    //HardwareSerial serialPort(1);
     #define baudrate 115200
     #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
 
@@ -155,7 +155,7 @@ Released for private usage
 	#define configParam SERIAL_8N1
 
 	//Serial configuration
-	HardwareSerial serialPort =	Serial;
+	HardwareSerial serialPort =	Serial2;
     #define baudrate 9600
     #define description "PLEASE USE PIN RX=48 & TX=46"
 
