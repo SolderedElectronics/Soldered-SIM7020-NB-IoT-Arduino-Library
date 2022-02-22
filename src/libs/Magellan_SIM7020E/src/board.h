@@ -132,7 +132,7 @@ Released for private usage
     #define buadrate 115200
     #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
 
-#elif defined(ARDUINO_AVR_UNO) 
+#elif defined(__AVR_ATmega328P__) 
  	#define isHwReset 0
 	#define isATReset 1
 	#define isNetLight 0
