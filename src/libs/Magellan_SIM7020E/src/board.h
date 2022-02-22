@@ -34,9 +34,6 @@ Modified: 11 February 2020.
 Released for private usage
 */
 
-// Define the board used AltSoftSerial.h 
-
-
 //Hardware specification and configuration
 #if defined( __ARDUINO_X86__)
 	#define isHwReset 0
@@ -49,9 +46,7 @@ Released for private usage
 	#define txPin 5
 
 	//Serial configuration
-	#define Alt
-	#include "AltSoftSerial.h"
-    AltSoftSerial serialPort;
+    HardwareSerial serialPort =	Serial;
     #define buadrate 9600
     #define description "PLEASE USE Hardware Serial"
 
@@ -144,14 +139,9 @@ Released for private usage
 	#define hwResetPin 5
 	#define serialConfig 0
 	#define configParam SERIAL_8N1
-	#define rxPin 8
-	#define txPin 9
 
 	//Serial configuration
-	#define Alt
-	#include "AltSoftSerial.h"
-    AltSoftSerial serialPort;
-    #define buadrate 9600
+	HardwareSerial serialPort =	Serial;
     #define description "PLEASE USE PIN RX=0 & TX=1"
 
 #elif defined(ARDUINO_AVR_MEGA2560)
@@ -161,13 +151,9 @@ Released for private usage
 	#define hwResetPin 5
 	#define serialConfig 0
 	#define configParam SERIAL_8N1
-	#define rxPin 48
-	#define txPin 46
 
 	//Serial configuration
-	#define Alt
-	#include "AltSoftSerial.h"
-    AltSoftSerial serialPort;
+	HardwareSerial serialPort =	Serial;
     #define buadrate 9600
     #define description "PLEASE USE PIN RX=48 & TX=46"
 
@@ -179,9 +165,7 @@ Released for private usage
 	#define serialConfig 0
 
 	//Serial configuration
-	#define Alt
-	#include "AltSoftSerial.h"
-    AltSoftSerial serialPort;
+    HardwareSerial serialPort =	Serial;
     #define buadrate 9600
     #define description "USE AltSoftSerial Serial"
 
