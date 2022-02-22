@@ -12,7 +12,7 @@
  * @author		Device Innovation team     
  ***************************************************/
 
-//Connecting diagram
+//Connection diagram for Dasduino Core(or any other ATMega328P board), for other boards check boards.h file in this library
 //Breakout      Arduino
 //|-------------|
 //VCC-----------5V
@@ -42,7 +42,7 @@ void loop()
     Example report the user button to Magellan IoT platform
   */
   String struserButton="0";
-  if(!digitalRead(userButton))
+  if(!digitalRead(userButton))              //Read button state
   {
     struserButton="1";
   }

@@ -155,9 +155,9 @@ Released for private usage
 	#define configParam SERIAL_8N1
 
 	//Serial configuration
-	HardwareSerial serialPort =	Serial2;
+	HardwareSerial serialPort =	Serial1;
     #define baudrate 9600
-    #define description "PLEASE USE PIN RX=48 & TX=46"
+    #define description "PLEASE USE PIN RX=19 & TX=18"
 
 #else 
  	#define isHwReset 0
@@ -165,11 +165,15 @@ Released for private usage
 	#define isNetLight 0
 	#define hwResetPin 5
 	#define serialConfig 0
+	#define rxPin 2
+	#define txPin 4
+	#define baudrate 9600
 
 	//Serial configuration
-    HardwareSerial serialPort =	Serial;
+    #include "SoftwareSerial.h"
+	SoftwareSerial serialPort(rxPin , txPin);
     #define baudrate 9600
-    #define description "USE AltSoftSerial Serial"
+    #define description "USE software Serial, check boards.h for configuration"
 
 
 #endif
