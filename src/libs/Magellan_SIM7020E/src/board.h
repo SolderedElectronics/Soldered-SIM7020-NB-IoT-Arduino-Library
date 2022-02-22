@@ -47,7 +47,7 @@ Released for private usage
 
 	//Serial configuration
     HardwareSerial serialPort =	Serial;
-    #define buadrate 9600
+    #define baudrate 9600
     #define description "PLEASE USE Hardware Serial"
 
 #elif defined(ARDUINO_NUCLEO_L476RG) || (ARDUINO_STM32L4_NUCLEO) || (ARDUINO_ARCH_STM32) || (NUCLEO_L476RG)
@@ -64,7 +64,7 @@ Released for private usage
 
     //Serial configuration
 	HardwareSerial serialPort(UART4); //NUCLEO_L053
-	#define buadrate 9600
+	#define baudrate 9600
 	#define description "PLEASE USE PIN RX=4 & TX=5"
 
 #elif defined(ARDUINO_Node32s)
@@ -80,7 +80,7 @@ Released for private usage
 	//Serial configuration
     //Serial2 serialPort;
     HardwareSerial serialPort(2);
-    #define buadrate 9600
+    #define baudrate 9600
     #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
 
 #elif defined(ARDUINO_NodeMCU_32S)
@@ -95,7 +95,7 @@ Released for private usage
 
 	//Serial configuration
     HardwareSerial serialPort(2);
-    #define buadrate 9600
+    #define baudrate 9600
     #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
 
 #elif defined(ARDUINO_ESP32_DEV) || (ARDUINO_ARCH_ESP32)
@@ -112,7 +112,7 @@ Released for private usage
 	//Serial configuration
 	//HardwareSerial serialPort(2);
     HardwareSerial serialPort(1);
-    #define buadrate 115200
+    #define baudrate 115200
     #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
 
 #elif defined(ARDUINO_ESP8266_GENERIC)
@@ -129,7 +129,7 @@ Released for private usage
 	//Serial configuration
 	//HardwareSerial serialPort(2);
     HardwareSerial serialPort(1);
-    #define buadrate 115200
+    #define baudrate 115200
     #define description "PLEASE USE PIN RX=RX2 & TX=TX2 & 3V3=IOREF"
 
 #elif defined(__AVR_ATmega328P__) 
@@ -156,7 +156,7 @@ Released for private usage
 
 	//Serial configuration
 	HardwareSerial serialPort =	Serial;
-    #define buadrate 9600
+    #define baudrate 9600
     #define description "PLEASE USE PIN RX=48 & TX=46"
 
 #else 
@@ -168,7 +168,7 @@ Released for private usage
 
 	//Serial configuration
     HardwareSerial serialPort =	Serial;
-    #define buadrate 9600
+    #define baudrate 9600
     #define description "USE AltSoftSerial Serial"
 
 
