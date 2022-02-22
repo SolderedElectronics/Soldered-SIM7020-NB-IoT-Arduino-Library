@@ -59,12 +59,12 @@ void AT_SIM7020E::setupModule(String address, String port)
 
     if (serialConfig)
     {
-        serialPort.begin(buadrate);
+        serialPort.begin(baudrate);
         _Serial = &serialPort;
     }
     else
     {
-        serialPort.begin(buadrate);
+        serialPort.begin(baudrate);
         _Serial = &serialPort;
     }
 

@@ -138,10 +138,12 @@ Released for private usage
 	#define isNetLight 0
 	#define hwResetPin 5
 	#define serialConfig 0
-	#define configParam SERIAL_8N1
+	#define rxPin 2
+	#define txPin 4
+	#define baudrate 9600
 
-	//Serial configuration
-	HardwareSerial serialPort =	Serial;
+	#include "SoftwareSerial.h"
+	SoftwareSerial serialPort(rxPin , txPin);
     #define description "PLEASE USE PIN RX=0 & TX=1"
 
 #elif defined(ARDUINO_AVR_MEGA2560)
