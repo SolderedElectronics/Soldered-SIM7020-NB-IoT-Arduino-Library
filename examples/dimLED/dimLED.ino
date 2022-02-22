@@ -29,7 +29,7 @@ String payload;
 const int ledPin = 9;
 
 #ifdef ARDUINO_ESP32_DEV
-ledcAttachPin(ledPin, 0)
+ledcAttachPin(ledPin, 0);
 #endif
 
 void setup() 
