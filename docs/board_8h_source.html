@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">//Serial configuration</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">   49</a></span>    HardwareSerial <a class="code hl_variable" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">serialPort</a> = Serial;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">    #define buadrate 9600</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">    #define baudrate 9600</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">    #define description &quot;PLEASE USE Hardware Serial&quot;</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#elif defined(ARDUINO_NUCLEO_L476RG) || (ARDUINO_STM32L4_NUCLEO) || (ARDUINO_ARCH_STM32) || (NUCLEO_L476RG)</span></div>
@@ -155,7 +155,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="comment">//Serial configuration</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="board_8h.html#aa055e9c60feb38ad29373622eda46aa4">   66</a></span>    HardwareSerial <a class="code hl_variable" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">serialPort</a>(UART4); <span class="comment">//NUCLEO_L053</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">    #define buadrate 9600</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">    #define baudrate 9600</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">    #define description &quot;PLEASE USE PIN RX=4 &amp; TX=5&quot;</span></div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#elif defined(ARDUINO_Node32s)</span></div>
@@ -171,7 +171,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="comment">//Serial configuration</span></div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="comment">//Serial2 serialPort;</span></div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="board_8h.html#aa22311f7e3240d97c1df2424e9d9c542">   82</a></span>    HardwareSerial <a class="code hl_variable" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">serialPort</a>(2);</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">    #define buadrate 9600</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">    #define baudrate 9600</span></div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">    #define description &quot;PLEASE USE PIN RX=RX2 &amp; TX=TX2 &amp; 3V3=IOREF&quot;</span></div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#elif defined(ARDUINO_NodeMCU_32S)</span></div>
@@ -186,7 +186,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="comment">//Serial configuration</span></div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    HardwareSerial <a class="code hl_variable" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">serialPort</a>(2);</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="preprocessor">    #define buadrate 9600</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="preprocessor">    #define baudrate 9600</span></div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">    #define description &quot;PLEASE USE PIN RX=RX2 &amp; TX=TX2 &amp; 3V3=IOREF&quot;</span></div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#elif defined(ARDUINO_ESP32_DEV) || (ARDUINO_ARCH_ESP32)</span></div>
@@ -203,7 +203,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="comment">//Serial configuration</span></div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="comment">//HardwareSerial serialPort(2);</span></div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="board_8h.html#abb5ca93520ac3e6bb2e360db7c188871">  114</a></span>    HardwareSerial <a class="code hl_variable" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">serialPort</a>(1);</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">    #define buadrate 115200</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">    #define baudrate 115200</span></div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">    #define description &quot;PLEASE USE PIN RX=RX2 &amp; TX=TX2 &amp; 3V3=IOREF&quot;</span></div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">#elif defined(ARDUINO_ESP8266_GENERIC)</span></div>
@@ -220,7 +220,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="comment">//Serial configuration</span></div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="comment">//HardwareSerial serialPort(2);</span></div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    HardwareSerial <a class="code hl_variable" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">serialPort</a>(1);</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="preprocessor">    #define buadrate 115200</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="preprocessor">    #define baudrate 115200</span></div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="preprocessor">    #define description &quot;PLEASE USE PIN RX=RX2 &amp; TX=TX2 &amp; 3V3=IOREF&quot;</span></div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#elif defined(__AVR_ATmega328P__) </span></div>
@@ -247,7 +247,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="comment">//Serial configuration</span></div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    HardwareSerial <a class="code hl_variable" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">serialPort</a> = Serial;</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="preprocessor">    #define buadrate 9600</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="preprocessor">    #define baudrate 9600</span></div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span><span class="preprocessor">    #define description &quot;PLEASE USE PIN RX=48 &amp; TX=46&quot;</span></div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span><span class="preprocessor">#else </span></div>
@@ -259,7 +259,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="comment">//Serial configuration</span></div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    HardwareSerial <a class="code hl_variable" href="board_8h.html#af2de4b32d939c7b7faf877645f89ca02">serialPort</a> = Serial;</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span><span class="preprocessor">    #define buadrate 9600</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span><span class="preprocessor">    #define baudrate 9600</span></div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="preprocessor">    #define description &quot;USE AltSoftSerial Serial&quot;</span></div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
@@ -273,7 +273,7 @@ $(document).ready(function(){initNavTree('board_8h_source.html',''); initResizab
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_f0aca3890e52e94015d2b544d55c6510.html">Magellan_SIM7020E</a></li><li class="navelem"><a class="el" href="dir_6e51d4b73872659af77874c26e80494e.html">src</a></li><li class="navelem"><a class="el" href="board_8h.html">board.h</a></li>
         <li class="footer">
-            Generated on Tue Feb 22 2022 08:39:02 for SIM7020 NB-IoT Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Tue Feb 22 2022 08:43:35 for SIM7020 NB-IoT Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.3.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
