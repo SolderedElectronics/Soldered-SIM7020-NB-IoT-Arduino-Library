@@ -28,10 +28,7 @@ String dimmer="0";
 String payload;
 const int ledPin = 9;
 
-#ifdef ARDUINO_ESP32_DEV
-ledcSetup(ledChannel, freq, resolution);
-ledcAttachPin(ledPin, 0);
-#endif
+
 
 void setup() 
 {
@@ -47,6 +44,8 @@ void setup()
   const int freq = 5000;
   const int ledChannel = 0;
   const int resolution = 8;
+  ledcSetup(ledChannel, freq, resolution);
+  ledcAttachPin(ledPin, 0);
   ledcWrite(0, 1023);
   #else
   analogWrite(ledPin,255);
