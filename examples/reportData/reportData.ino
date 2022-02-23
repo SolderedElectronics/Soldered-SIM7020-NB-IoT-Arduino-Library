@@ -45,8 +45,8 @@ void loop()
   /*
     Example report random temperature and humidity to Magellan IoT platform
   */
-  String temperature=String(random(0,100));
-  String humidity=String(random(0,100));
+  String temperature=String(random(0,100)); //Take random number
+  String humidity=String(random(0,100));  //Take random number
   
   payload="{\"temperature\":"+temperature+",\"humidity\":"+humidity+"}";  //Please provide payload with json format
   

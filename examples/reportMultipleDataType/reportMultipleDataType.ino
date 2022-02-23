@@ -36,7 +36,7 @@ String payload;
 
 void setup() 
 {
-  Serial.begin(115200);
+  Serial.begin(115200); //Begin serial communication with PC using baud rate of 115200 bauds/s
   magel.begin();           //Init Magellan LIB
 }
 
