@@ -34,7 +34,7 @@ String payload;
 
 void setup() 
 {
-  Serial.begin(115200);
+  Serial.begin(115200); //Begin serial communication with PC using baud rate of 115200 bauds/s
 
   Serial.println("Analog Read");
       
@@ -47,9 +47,9 @@ void loop()
     Example read sensor on board and report data to Magellan IoT platform
   */
   
-  String Light=String(analogRead(lightSensorPin));
+  String Light=String(analogRead(lightSensorPin));  //Read value from sensor
   
   payload="{\"light\":" + Light + "}";  //Please provide payload with json format
-  magel.report(payload);                                                                      //Report sensor data
-  delay(5000);                                                                                //Delay 5 second
+  magel.report(payload);                //Report sensor data
+  delay(5000);                          //Delay 5 second
 }

@@ -36,11 +36,11 @@ int cnt=0;
 AIS_SIM7020E_API nb;
 void setup() {
     
-  Serial.begin(115200);
-  nb.begin(address,serverPort);
+  Serial.begin(115200); //Begin serial communication with PC using baud rate of 115200 bauds/s
+  nb.begin(address,serverPort); //Initialize server
   Serial.println(F("-------------BEGIN-------------"));
   Serial.print(F(">>DeviceIP: "));
-  Serial.println(nb.getDeviceIP());
+  Serial.println(nb.getDeviceIP()); //Get IP address of device
   nb.pingIP(address);
   previousMillis = millis();
 
@@ -51,11 +51,8 @@ void loop() {
   unsigned long currentMillis = millis();
   if (currentMillis - previousMillis >= interval){     
       cnt++;    
-      // Send data in String 
-      nb.sendMsgSTR(address,serverPort,payload+String(cnt));
-      
-      // Send data in HexString     
-      //nb.sendMsgHEX(address,serverPort,payload+String(cnt));
+      nb.sendMsgSTR(address,serverPort,payload+String(cnt));// Send data in String 
+      //nb.sendMsgHEX(address,serverPort,payload+String(cnt)); // Send data in HexString    
       previousMillis = currentMillis;  
   }
   nb.waitResponse(data_return,address);

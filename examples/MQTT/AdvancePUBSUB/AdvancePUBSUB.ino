@@ -56,7 +56,7 @@ String willOption = nb.willConfig("will_topic",will_qos,will_retain,"will_msg");
 int cnt = 0;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200); //Begin serial communication with PC using baud rate of 115200 bauds/s
   nb.begin();                   //Initialize SIM7020
   setupMQTT();                  //Initialize MQTT server
   nb.setCallback(callback);     //Set callback
@@ -83,7 +83,7 @@ void setupMQTT(){
    if(!nb.connectAdvanceMQTT(address,serverPort,clientID,username,password,keepalive,version,cleansession,willflag,willOption)){
      Serial.println("\nconnectMQTT");
     }
-    nb.subscribe(topic,subQoS);
+    nb.subscribe(topic,subQoS); 
 //    nb.unsubscribe(topic); 
 }
 void connectStatus(){

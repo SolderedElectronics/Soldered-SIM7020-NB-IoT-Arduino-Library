@@ -35,7 +35,7 @@ const int ledPin = 9;
 
 void setup() 
 {
-  Serial.begin(115200);
+  Serial.begin(115200); //Begin serial communication with PC using baud rate of 115200 bauds/s
     
   magel.begin();            //Init Magellan LIB
 
@@ -73,8 +73,8 @@ void loop()
   Serial.print("dimmer ");
   Serial.println(dimmer);
   #ifdef ARDUINO_ESP32_DEV            //Again, ESP32 does not support analogWrite
-  ledcWrite(0, dimmer.toInt() * 4);   //Convert dimmer into int datatype
+  ledcWrite(0, dimmer.toInt() * 4);   //Convert dimmer into int datatype and set that value to PWM
   #else
-  analogWrite(ledPin,dimmer.toInt()); //Convert dimmer into int datatype
+  analogWrite(ledPin,dimmer.toInt());
   #endif
 }
