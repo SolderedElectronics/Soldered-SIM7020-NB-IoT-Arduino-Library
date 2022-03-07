@@ -5,14 +5,15 @@
  * @brief       This is an example for digital dimmer. That has control the LED on board from Magellan IoT Platform.
  *
  *
- *				product: www.solde.red/333072
+ *				      product: www.solde.red/333072
  *
- * 				Modified by soldered.com
+ * 				      Modified by soldered.com
  *
- * @author		Device Innovation team     
+ * @author		  Device Innovation team     
  ***************************************************/
 
-//Connection diagram for Dasduino Core(or any other ATMega328P board), for other boards check boards.h file in this library
+//Connection diagram for Dasduino Core(or any other ATMega328P board), 
+//for other boards check boards.h file in this library
 //Breakout      Arduino
 //|-------------|
 //VCC-----------5V

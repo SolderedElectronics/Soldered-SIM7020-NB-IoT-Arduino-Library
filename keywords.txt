@@ -6,11 +6,53 @@
 # Datatypes (KEYWORD1)
 ##################################################
 
+Magellan_SIM7020E KEYWORD1
+
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
 begin	KEYWORD2
+report	KEYWORD2
+getControl	KEYWORD2
+getConfig	KEYWORD2
+setupMQTT	KEYWORD2
+setCallback	KEYWORD2
+connectStatus	KEYWORD2
+publish	KEYWORD2
+connectMQTT	KEYWORD2
+subscribe	KEYWORD2
+unsubscribe	KEYWORD2
+NBstatus	KEYWORD2
+setupMQTT	KEYWORD2
+MQTTresponse	KEYWORD2
+connectAdvanceMQTT	KEYWORD2
+sendMsgSTR	KEYWORD2
+sendMsgHEX	KEYWORD2
+pingIP	KEYWORD2
+getDeviceIP	KEYWORD2
+waitResponse	KEYWORD2
+getData	KEYWORD2
+postData	KEYWORD2
+msgGet	KEYWORD2
+msgPost	KEYWORD2
+printHEX	KEYWORD2
+printMsgID	KEYWORD2
+printRspHeader	KEYWORD2
+printRspType	KEYWORD2
+printPathlen	KEYWORD2
+printUriPath	KEYWORD2
+printErrCode	KEYWORD2
+manageResponse	KEYWORD2
+rspPrintOut	KEYWORD2
+send_msg	KEYWORD2
+char_to_byte	KEYWORD2
+powerSavingMode	KEYWORD2
+getSignal	KEYWORD2
+getIMSI	KEYWORD2
+getRadioStat	KEYWORD2
+pingIP	KEYWORD2
+getClock	KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)

@@ -3,17 +3,18 @@
  *
  * @file        getControlLED.ino
  * @brief       This is an example for DEVIO NB-DEVKIT I. That has get 
- *				swich data from Magellan IoT Platform for control LED on board.
+ *				      swich data from Magellan IoT Platform for control LED on board.
  *
  *
- *				product: www.solde.red/333072
+ *				      product: www.solde.red/333072
  *
- * 				Modified by soldered.com
+ * 				      Modified by soldered.com
  *
- * @author		Device Innovation team     
+ * @author		  Device Innovation team     
  ***************************************************/
  
-//Connection diagram for Dasduino Core(or any other ATMega328P board), for other boards check boards.h file in this library
+//Connection diagram for Dasduino Core(or any other ATMega328P board),  
+//for other boards check boards.h file in this library
 //Breakout      Arduino
 //|-------------|
 //VCC-----------5V

@@ -7,8 +7,6 @@
 | :---------------------------------------------------------------------------------------------: |
 | [SIM7020 NB-IoT beakout board](https://www.solde.red/333072)                                                            |
 
-SIM7020 NB-IoT beakout board [easyC ecosystem](https://www.soldered.com/easyC). 
-
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
 - **/examples** - examples for using the library
