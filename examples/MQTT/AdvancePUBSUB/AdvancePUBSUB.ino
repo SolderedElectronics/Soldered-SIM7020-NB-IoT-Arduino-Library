@@ -53,7 +53,7 @@ AIS_SIM7020E_API nb;
    *  will_qos   : unsinged int : 0, 1, 2
    *  will_retain: unsinged int : 0, 1
    *  will_msg   : String */
-String willOption = nb.willConfig("will_topic",will_qos,will_retain,"will_msg");TT
+String willOption = nb.willConfig("will_topic",will_qos,will_retain,"will_msg");
 int cnt = 0;
 
 void setup()
