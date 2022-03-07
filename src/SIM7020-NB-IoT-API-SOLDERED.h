@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        SIM7020-NB-IoT-API-SOLDERED.h
- * @brief       Header file for SIM7020 breakout library
+ * @brief       Header file for SIM7020 breakout library.
  *
  *
  * @copyright   GNU General Public License v3.0
