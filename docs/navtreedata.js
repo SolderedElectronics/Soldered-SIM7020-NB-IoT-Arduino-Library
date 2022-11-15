@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "SIM7020 NB-IoT Library", "index.html", [
-    [ "SIM7020 NB-IoT Arduino library", "index.html", null ],
+    [ "NB-IoT communications SIM7020 breakout Arduino library", "index.html", [
+      [ "Have fun!", "index.html#autotoc_md8", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
